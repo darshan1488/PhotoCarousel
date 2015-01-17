@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PCAppDelegate.h
 //  PhotoCarousel
 //
 //  Created by Darshan K N on 11/01/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

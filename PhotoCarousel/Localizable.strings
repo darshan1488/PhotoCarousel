@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  PhotoCarousel
+
+  Created by Darshan K N on 13/01/15.
+  Copyright (c) 2015 Darshan K N. All rights reserved.
+*/
+
+
+"AppTitle" = "Photo Carousel";
+
+"NoPhotoSelectedMessage" = "No photo selected";
+"SinglePhotoSelectedMessage" = "1 photo selected";
+"MultiplePhotoSelectedMessage" =  "%ld photos selected";
+
+"CountButtonTitle" = "Count";
+"CancelButtonTitle" = "OK";
+
+"PermissionDeniedTitle" = "Permission Denied";
+"PermissionDeniedMessage" = "Please give permission to access photos.";
+
+"GenericErrorTitle" = "Error";
+"GenericErroMessage" = "Unable to retrieve photos";
+
+"NoPhotoTitle" = "No Photos";
+"NoPhotoMessage" = "There are no photos in device";

@@ -1,22 +1,31 @@
 //
-//  AppDelegate.m
+//  PCAppDelegate.m
 //  PhotoCarousel
 //
 //  Created by Darshan K N on 11/01/15.
 //  Copyright (c) 2015 Darshan K N. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PCAppDelegate.h"
+#import "PCViewController.h"
 
-@interface AppDelegate ()
+@interface PCAppDelegate ()
+
+@property (nonatomic, strong) PCViewController *viewController;
 
 @end
 
-@implementation AppDelegate
-
+@implementation PCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.viewController = [[PCViewController alloc] init];
+    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    [self.window setRootViewController:nc];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
